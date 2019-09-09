@@ -23,9 +23,9 @@ public class FileUtilTest {
 		System.out.println(file);
 	}
 
-	@Test
-	public void testGetUserDirectory() {
-		fail("Not yet implemented");
-	}
+//	@Test
+//	public void testGetUserDirectory() {
+//		fail("Not yet implemented");
+//	}
 
 }

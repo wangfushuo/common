@@ -19,14 +19,14 @@ public class StreamUtilTest {
 
 	@Test
 	public void testReadTextFileInputStream() throws FileNotFoundException {
-		String string = StreamUtil.readTextFile(new  FileInputStream("d:/test.txt"));
-		System.out.println(string);
+//		String string = StreamUtil.readTextFile(new  FileInputStream("e:/test.txt"));
+//		System.out.println(string);
 	}
 
 	@Test
 	public void testReadTextFileFile() {
-		String string = StreamUtil.readTextFile(new File("d:/test.txt"));
-		System.out.println(string);
+//		String string = StreamUtil.readTextFile(new File("e:/test.txt"));
+//		System.out.println(string);
 	}
 
 }
