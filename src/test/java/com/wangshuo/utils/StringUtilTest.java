@@ -11,6 +11,34 @@ import com.wangshuo.common.utils.StringUtil;
 public class StringUtilTest {
 
 	@Test
+	public void isphone() {
+		
+		String reg="17852007798";
+		boolean b = StringUtil.isPhoneNumber(reg);
+		System.out.println(b);
+		
+	}
+	
+	
+	@Test
+	public void email() {
+		
+		String reg="a97633abv@qq.com";
+		boolean b = StringUtil.isEmail(reg);
+		System.out.println(b);
+	}
+	
+	@Test
+	public void tohtml() {
+		
+		String str="家会计师爱吃烤了";
+		String html = StringUtil.toHtml(str);
+		System.out.println(html);
+				
+	}
+	
+	
+	@Test
 	public void testHasLength() {
         String str=" ";
 		
